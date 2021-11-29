@@ -55,23 +55,21 @@ const Projects = () => {
                 <li>Lorem ipsum dolor sit amet.</li>
               </ul>
             </div>
-            <h4 className="my-2">Technology</h4>
-            <div>
-              <h5 className="d-inline">
-                <span className="me-2 mb-1 bg-secondary">HTML5</span>
-              </h5>
-              <h5 className="d-inline">
-                <span className="me-2 mb-1">HTML5</span>
-              </h5>
-              <h5 className="d-inline">
-                <span className="me-2 mb-1">HTML5</span>
-              </h5>
-              <h5 className="d-inline">
-                <span className="me-2 mb-1">HTML5</span>
-              </h5>
-              <h5 className="d-inline">
-                <span className="me-2 mb-1">HTML5</span>
-              </h5>
+            <h4 className="my-2 fw-bold">Technology</h4>
+            <div className="px-3 pb-2 technology">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Bootstrap</span>
+              <span>React Bootstrap</span>
+              <span>JavaScript</span>
+              <span>React.js</span>
+              <span>React Router</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MOngoDB</span>
+              <span>React Icon</span>
+              <span>Firebase</span>
+              <span>Heroku</span>
             </div>
           </div>
         </div>
@@ -91,7 +89,37 @@ const Projects = () => {
               </Carousel.Item>
             </Carousel>
           </div>
-          <div className="col-md-6">this is sunglass project</div>
+          <div className="col-md-6">
+            <h2>Tour Dust</h2>
+            <div>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero,
+              sunt repellendus aspernatur totam nihil blanditiis adipisci
+              voluptatem qui ea cum?
+              <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+              </ul>
+            </div>
+            <h4 className="my-2 fw-bold">Technology</h4>
+            <div className="px-3 pb-2 technology">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Bootstrap</span>
+              <span>React Bootstrap</span>
+              <span>JavaScript</span>
+              <span>React.js</span>
+              <span>React Router</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MOngoDB</span>
+              <span>React Icon</span>
+              <span>Firebase</span>
+              <span>Heroku</span>
+            </div>
+          </div>
         </div>
       </div>
       <div className="mt-5">
@@ -121,7 +149,37 @@ const Projects = () => {
               </Carousel.Item>
             </Carousel>
           </div>
-          <div className="col-md-6">this is sunglass project</div>
+          <div className="col-md-6">
+            <h2>We Care</h2>
+            <div>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero,
+              sunt repellendus aspernatur totam nihil blanditiis adipisci
+              voluptatem qui ea cum?
+              <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+              </ul>
+            </div>
+            <h4 className="my-2 fw-bold">Technology</h4>
+            <div className="px-3 pb-2 technology">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Bootstrap</span>
+              <span>React Bootstrap</span>
+              <span>JavaScript</span>
+              <span>React.js</span>
+              <span>React Router</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MOngoDB</span>
+              <span>React Icon</span>
+              <span>Firebase</span>
+              <span>Heroku</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

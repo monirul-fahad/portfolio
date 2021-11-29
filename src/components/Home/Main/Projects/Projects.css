@@ -7,3 +7,20 @@
   font-size: 20px;
   font-weight: 500;
 }
+
+.single-project h2,
+h4 {
+  color: #ff4a57;
+  font-weight: 700;
+}
+
+.technology span {
+  background: #394b66;
+  color: white;
+  margin-right: 12px;
+  margin-top: 12px;
+  border-radius: 3px;
+  padding: 3px 10px;
+  font-size: 17px;
+  display: inline-block;
+}
