@@ -1,0 +1,9 @@
+.single-project {
+  padding: 30px 15px;
+  border-radius: 10px;
+  border: 2px solid #1586b3;
+  background-color: rgb(238, 235, 235);
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+}
