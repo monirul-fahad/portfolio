@@ -13,8 +13,9 @@ import { Carousel } from "react-bootstrap";
 
 const Projects = () => {
   return (
-    <div className="container">
+    <div className="container  pb-5">
       <div className="mt-5">
+        <h2 className="pt-5 pb-3">Some of my projects</h2>
         <div className="row single-project d-flex align-items-center">
           <div className="col-md-6">
             <Carousel>
@@ -172,12 +173,8 @@ const Projects = () => {
               <span>JavaScript</span>
               <span>React.js</span>
               <span>React Router</span>
-              <span>Node.js</span>
-              <span>Express.js</span>
-              <span>MOngoDB</span>
               <span>React Icon</span>
               <span>Firebase</span>
-              <span>Heroku</span>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ import banner_img from "../../../images/banner1.png";
 const Banner = () => {
   return (
     <div className="container">
-      <div className="row">
+      <div className="row d-flex align-items-center">
         <div className="col-md-6 col-sm-12 col-xs-12 text-start banner-content">
           <h4>Hy There...</h4>
           <h3>My name is</h3>
