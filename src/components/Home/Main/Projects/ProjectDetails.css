@@ -28,3 +28,9 @@ h4 {
 .project-link a {
   margin: 0 10px 0 10px;
 }
+
+.card-body h5,
+.card-body p {
+  color: #1f2235;
+  font-weight: bold;
+}
