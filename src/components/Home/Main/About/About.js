@@ -1,16 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import about_pic from "../../../../images/pic-1.jpg";
 import "./About.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 1500,
+      easing: "ease",
+    });
+  }, []);
   return (
     <div className="container mt-5" id="about">
       <div className="row d-flex align-items-center">
-        <div className="col-md-6 col-sm-12 col-xs-12">
+        <div className="col-md-6 col-sm-12 col-xs-12" data-aos="fade-right">
           <div className="about-img">
             <img className="align-middle" src={about_pic} alt="" />
           </div>
         </div>
-        <div className="col-md-6 col-sm-12 col-xs-12 text-start about-content">
+        <div
+          className="col-md-6 col-sm-12 col-xs-12 text-start about-content"
+          data-aos="fade-left"
+        >
           <h3>
             Hello, I'm <span style={{ color: "#ff4a57" }}>Monirul Islam</span>{" "}
           </h3>
