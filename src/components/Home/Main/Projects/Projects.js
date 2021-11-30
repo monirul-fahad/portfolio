@@ -69,7 +69,12 @@ const Projects = () => {
                 {values.map((v, idx) => (
                   <Button
                     key={idx}
-                    className="me-2"
+                    className="me-2 fw-bold"
+                    style={{
+                      background: "#ff4a57",
+                      border: "none",
+                      color: "#1f2235",
+                    }}
                     onClick={() => handleShow2(v)}
                   >
                     More About Glassy Yard
@@ -86,7 +91,11 @@ const Projects = () => {
                   </Modal.Header>
 
                   <Modal.Body className="container">
-                    <div className="row single-project d-flex align-items-center">
+                    <div
+                      className="row single-project d-flex align-items-center "
+                      data-aos="flip-left"
+                      data-aos-duration="2000"
+                    >
                       <div className="col-md-6">
                         <Carousel>
                           <Carousel.Item>
@@ -113,7 +122,7 @@ const Projects = () => {
                         </Carousel>
                         <div className="project-link pt-5  text-center">
                           <a
-                            href="http://"
+                            href="https://sungalss-shop.firebaseapp.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -122,7 +131,7 @@ const Projects = () => {
                             </button>
                           </a>
                           <a
-                            href="http://"
+                            href="https://github.com/monirul-fahad/sunglass-store-app-client"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -185,7 +194,12 @@ const Projects = () => {
                 {values.map((v, idx) => (
                   <Button
                     key={idx}
-                    className="me-2"
+                    className="me-2 fw-bold"
+                    style={{
+                      background: "#ff4a57",
+                      border: "none",
+                      color: "#1f2235",
+                    }}
                     onClick={() => handleShow(v)}
                   >
                     More About Tour Dust
@@ -202,7 +216,11 @@ const Projects = () => {
                   </Modal.Header>
 
                   <Modal.Body className="container">
-                    <div className="row single-project d-flex align-items-center">
+                    <div
+                      className="row single-project d-flex align-items-center"
+                      data-aos="flip-left"
+                      data-aos-duration="2000"
+                    >
                       <div className="col-md-6">
                         <Carousel>
                           <Carousel.Item>
@@ -229,7 +247,7 @@ const Projects = () => {
                         </Carousel>
                         <div className="project-link pt-5  text-center">
                           <a
-                            href="http://"
+                            href="https://tourism-web-00.firebaseapp.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -238,7 +256,7 @@ const Projects = () => {
                             </button>
                           </a>
                           <a
-                            href="http://"
+                            href="https://github.com/monirul-fahad/tourism-app-clinte"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -301,7 +319,12 @@ const Projects = () => {
                 {values.map((v, idx) => (
                   <Button
                     key={idx}
-                    className="me-2"
+                    className="me-2 fw-bold"
+                    style={{
+                      background: "#ff4a57",
+                      border: "none",
+                      color: "#1f2235",
+                    }}
                     onClick={() => handleShow3(v)}
                   >
                     More About We Care
@@ -318,7 +341,11 @@ const Projects = () => {
                   </Modal.Header>
 
                   <Modal.Body className="container">
-                    <div className="row single-project d-flex align-items-center">
+                    <div
+                      className="row single-project d-flex align-items-center"
+                      data-aos="flip-left"
+                      data-aos-duration="2000"
+                    >
                       <div className="col-md-6">
                         <Carousel>
                           <Carousel.Item>
@@ -345,7 +372,7 @@ const Projects = () => {
                         </Carousel>
                         <div className="project-link pt-5  text-center">
                           <a
-                            href="http://"
+                            href="https://health-care-app-m.firebaseapp.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -354,7 +381,7 @@ const Projects = () => {
                             </button>
                           </a>
                           <a
-                            href="http://"
+                            href="https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-monirul-fahad"
                             target="_blank"
                             rel="noopener noreferrer"
                           >

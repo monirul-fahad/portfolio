@@ -44,14 +44,10 @@ const Contact = () => {
             rows="5"
           ></textarea>
           <br />
-          {/* <button style={{ background: "#ff4a57" }}>
-            {" "}
-            <input className="mb-3 form-control" type="submit" value="Submit" />
-          </button> */}
 
           <button
-            className="px-4 py-2 rounded"
-            style={{ background: "#ff4a57", border: "none", color: "white" }}
+            className="px-4 py-2 rounded fw-bold"
+            style={{ background: "#ff4a57", border: "none", color: "#1f2235" }}
             type="submit"
           >
             Submit
