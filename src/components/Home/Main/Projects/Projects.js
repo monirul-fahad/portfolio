@@ -41,6 +41,14 @@ const Projects = () => {
                 />
               </Carousel.Item>
             </Carousel>
+            <div className="project-link pt-5  text-center">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-success px-3 py-2">Live</button>
+              </a>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-info px-3 py-2">Github</button>
+              </a>
+            </div>
           </div>
           <div className="col-md-6">
             <h2>Glassy Yard</h2>
@@ -89,6 +97,14 @@ const Projects = () => {
                 <img className="d-block w-100" src={tour3} alt="Third slide" />
               </Carousel.Item>
             </Carousel>
+            <div className="project-link pt-5  text-center">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-success px-3 py-2">Live</button>
+              </a>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-info px-3 py-2">Github</button>
+              </a>
+            </div>
           </div>
           <div className="col-md-6">
             <h2>Tour Dust</h2>
@@ -149,6 +165,14 @@ const Projects = () => {
                 />
               </Carousel.Item>
             </Carousel>
+            <div className="project-link pt-5  text-center">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-success px-3 py-2">Live</button>
+              </a>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-info px-3 py-2">Github</button>
+              </a>
+            </div>
           </div>
           <div className="col-md-6">
             <h2>We Care</h2>
