@@ -3,7 +3,7 @@ import about_pic from "../../../../images/pic-1.jpg";
 import "./About.css";
 const About = () => {
   return (
-    <div className="container">
+    <div className="container" id="about">
       <div className="row d-flex align-items-center">
         <div className="col-md-6 col-sm-12 col-xs-12">
           <div className="about-img">

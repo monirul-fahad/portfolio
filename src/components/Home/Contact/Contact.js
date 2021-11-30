@@ -18,7 +18,7 @@ const Contact = () => {
       .catch((err) => console.log(err));
   }
   return (
-    <div className="container mt-5 pb-5">
+    <div className="container mt-5 pb-5" id="contact">
       <h2 className="text-center pb-3">Contact me</h2>
       <div className="align-items-center">
         <form className="w-75 mx-auto" onSubmit={sendEmail}>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
   return (
@@ -19,25 +20,26 @@ const Header = () => {
               {" "}
               Home{" "}
             </Nav.Link>
-            <Nav.Link style={{ color: "#fff" }} to="/about">
+            <Nav.Link style={{ color: "#fff" }} href="#about">
               {" "}
               About{" "}
             </Nav.Link>
-            <Nav.Link style={{ color: "#fff" }} to="/project">
+            <Nav.Link style={{ color: "#fff" }} href="#project">
               {" "}
               Projects{" "}
             </Nav.Link>
-            <Nav.Link style={{ color: "#fff" }} to="/blog">
+            <Nav.Link style={{ color: "#fff" }} href="#blog">
               {" "}
               Blog{" "}
             </Nav.Link>
-            <Nav.Link style={{ color: "#fff" }} to="/contact">
+            <Nav.Link style={{ color: "#fff" }} href="#contact">
               {" "}
               Contact{" "}
             </Nav.Link>
             <Nav.Link
               style={{ color: "#fff" }}
               target="_blank"
+              href="https://drive.google.com/file/d/1hUBC0rwgd58Qccijvve7surAoYIUrkXb/view"
               // className="p-0 px-2 active btn-brand"
             >
               Resume{" "}
