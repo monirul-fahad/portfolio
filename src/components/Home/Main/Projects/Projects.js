@@ -49,27 +49,27 @@ const Projects = () => {
         Some of my <span style={{ color: "#ff4a57" }}>projects</span>
       </h2>
       <div
-        class="row row-cols-1 row-cols-md-3 g-4"
+        className="row row-cols-1 row-cols-md-3 g-4"
         data-aos="fade-up"
         data-aos-duration="3000"
       >
-        <div class="col">
-          <div class="card h-100">
-            <img src={sunglass} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Glassy Yard</h5>
-              <p class="card-text">
+        <div className="col">
+          <div className="card h-100">
+            <img src={sunglass} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Glassy Yard</h5>
+              <p className="card-text">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
               </p>
             </div>
-            <div class="card-footer">
+            <div className="card-footer d-flex justify-content-center">
               <>
                 {values.map((v, idx) => (
                   <Button
                     key={idx}
-                    className="me-2 fw-bold"
+                    className="me-2 fw-bold "
                     style={{
                       background: "#ff4a57",
                       border: "none",
@@ -179,17 +179,17 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src={tour} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Tour Dust</h5>
-              <p class="card-text">
+        <div className="col">
+          <div className="card h-100">
+            <img src={tour} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Tour Dust</h5>
+              <p className="card-text">
                 This card has supporting text below as a natural lead-in to
                 additional content.
               </p>
             </div>
-            <div class="card-footer">
+            <div className="card-footer d-flex justify-content-center">
               <>
                 {values.map((v, idx) => (
                   <Button
@@ -304,17 +304,17 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src={health} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">We care</h5>
-              <p class="card-text">
+        <div className="col">
+          <div className="card h-100">
+            <img src={health} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">We care</h5>
+              <p className="card-text">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This card has even
               </p>
             </div>
-            <div class="card-footer">
+            <div className="card-footer d-flex justify-content-center">
               <>
                 {values.map((v, idx) => (
                   <Button

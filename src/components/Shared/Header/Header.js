@@ -1,10 +1,13 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
   return (
-    <Navbar className="pb-5" bg="transparent" expand="lg">
+    <Navbar
+      style={{ backgroundColor: "#1f2235" }}
+      className="py-3 fixed-top"
+      expand="lg"
+    >
       <Container>
         <Navbar.Brand
           style={{ color: "#fff" }}

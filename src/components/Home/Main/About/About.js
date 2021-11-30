@@ -4,9 +4,6 @@ import "./About.css";
 const About = () => {
   return (
     <div className="container mt-5" id="about">
-      {/* <h2 className="pt-5 mt-5 text-center" data-aos="flip-left">
-        About <span style={{ color: "#ff4a57" }}>Me</span>
-      </h2> */}
       <div className="row d-flex align-items-center">
         <div className="col-md-6 col-sm-12 col-xs-12">
           <div className="about-img">
@@ -50,10 +47,14 @@ const About = () => {
               style={{
                 background: "#fff",
                 border: "none",
-                color: "#1f2235",
               }}
             >
-              Download Resume
+              <a
+                style={{ color: "#1f2235", textDecoration: "none" }}
+                href="https://drive.google.com/uc?export=download&id=1hUBC0rwgd58Qccijvve7surAoYIUrkXb"
+              >
+                Download Resume
+              </a>
             </button>
             <button
               className="px-4 py-2 rounded fw-bold"

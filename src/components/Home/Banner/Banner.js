@@ -2,6 +2,13 @@ import React, { useEffect } from "react";
 import "./Banner.css";
 import banner_img from "../../../images/banner1.png";
 import TypeWriterEffect from "react-typewriter-effect";
+import {
+  FaInstagram,
+  FaLinkedinIn,
+  FaGithub,
+  FaFacebookF,
+  FaTwitter,
+} from "react-icons/fa";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -15,7 +22,7 @@ const Banner = () => {
     });
   }, []);
   return (
-    <div className="container">
+    <div className="container mt-5 pt-5">
       <div className="row d-flex align-items-center">
         <div
           className="col-md-6 col-sm-12 col-xs-12 text-start banner-content"
@@ -48,6 +55,33 @@ const Banner = () => {
             in JavaScript and ReactJS as well as strong skills in writing clean
             and efficient codes.
           </p>
+          <ul className="social-link">
+            <li>
+              <a href="#">
+                <FaLinkedinIn />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <FaGithub />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <FaFacebookF />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <FaTwitter />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <FaInstagram />
+              </a>
+            </li>
+          </ul>
         </div>
         <div className="col-md-6 col-sm-12 col-xs-12" data-aos="fade-up">
           <div className="banner-img">

@@ -14,3 +14,8 @@
   font-size: 17px;
   display: inline-block;
 }
+
+#about img {
+  border-radius: 20px;
+  border: 2px solid #ff4a57;
+}

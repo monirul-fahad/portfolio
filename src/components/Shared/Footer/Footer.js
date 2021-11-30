@@ -2,9 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-      <h1>This is footer</h1>
-      <h3>this is gooter</h3>
+    <div style={{ background: "#212331" }} className="py-3 text-center">
+      <p className="pt-3">
+        Copyright &copy; 2021 | All rights reserved by Monirul Islam Fahad
+      </p>
     </div>
   );
 };
