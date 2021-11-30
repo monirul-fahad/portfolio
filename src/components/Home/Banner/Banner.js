@@ -24,7 +24,7 @@ const Banner = () => {
   }, []);
   return (
     <>
-      <div className="container mt-5 pt-5">
+      <div className="container mt-5 pt-5 pb-5" id="home">
         <div className="row d-flex align-items-center">
           <div
             className="col-md-6 col-sm-12 col-xs-12 text-start banner-content"

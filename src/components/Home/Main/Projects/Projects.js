@@ -15,6 +15,8 @@ import tour3 from "../../../../images/tourdust3.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./ProjectDetails.css";
+import { FaGithub } from "react-icons/fa";
+import { MdOutlinePreview } from "react-icons/md";
 
 const Projects = () => {
   const values = [true];
@@ -126,8 +128,15 @@ const Projects = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <button className="btn btn-success px-3 py-2">
-                              Live
+                            <button
+                              style={{
+                                background: "#ff4a57",
+                                border: "none",
+                                color: "#1f2235",
+                              }}
+                              className="btn btn-success px-3 py-2"
+                            >
+                              <MdOutlinePreview /> Live
                             </button>
                           </a>
                           <a
@@ -135,8 +144,15 @@ const Projects = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <button className="btn btn-info px-3 py-2">
-                              Github
+                            <button
+                              style={{
+                                background: "#ff4a57",
+                                border: "none",
+                                color: "#1f2235",
+                              }}
+                              className="btn btn-info px-3 py-2"
+                            >
+                              <FaGithub /> Github
                             </button>
                           </a>
                         </div>
@@ -251,8 +267,15 @@ const Projects = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <button className="btn btn-success px-3 py-2">
-                              Live
+                            <button
+                              style={{
+                                background: "#ff4a57",
+                                border: "none",
+                                color: "#1f2235",
+                              }}
+                              className="btn btn-success px-3 py-2"
+                            >
+                              <MdOutlinePreview /> Live
                             </button>
                           </a>
                           <a
@@ -260,8 +283,15 @@ const Projects = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <button className="btn btn-info px-3 py-2">
-                              Github
+                            <button
+                              style={{
+                                background: "#ff4a57",
+                                border: "none",
+                                color: "#1f2235",
+                              }}
+                              className="btn btn-info px-3 py-2"
+                            >
+                              <FaGithub /> Github
                             </button>
                           </a>
                         </div>
@@ -376,8 +406,15 @@ const Projects = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <button className="btn btn-success px-3 py-2">
-                              Live
+                            <button
+                              style={{
+                                background: "#ff4a57",
+                                border: "none",
+                                color: "#1f2235",
+                              }}
+                              className="btn btn-success px-3 py-2"
+                            >
+                              <MdOutlinePreview /> Live
                             </button>
                           </a>
                           <a
@@ -385,8 +422,15 @@ const Projects = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <button className="btn btn-info px-3 py-2">
-                              Github
+                            <button
+                              style={{
+                                background: "#ff4a57",
+                                border: "none",
+                                color: "#1f2235",
+                              }}
+                              className="btn btn-info px-3 py-2"
+                            >
+                              <FaGithub /> Github
                             </button>
                           </a>
                         </div>

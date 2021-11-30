@@ -13,13 +13,14 @@ const Header = () => {
           style={{ color: "#fff" }}
           className="web-name header-logo"
           to="/"
+          href="#home"
         >
           Fahad
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link style={{ color: "#fff" }} to="/">
+            <Nav.Link style={{ color: "#fff" }} href="#home" to="/">
               {" "}
               Home{" "}
             </Nav.Link>
