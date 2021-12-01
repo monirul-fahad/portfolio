@@ -57,13 +57,15 @@ const Projects = () => {
       >
         <div className="col">
           <div className="card h-100">
-            <img src={sunglass} className="card-img-top" alt="..." />
+            <div className="card-img-hover">
+              <img src={sunglass} className="card-img-top" alt="..." />
+            </div>
             <div className="card-body">
               <h5 className="card-title">Glassy Yard</h5>
               <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Glassy Yard is a MERN-stack single-page web application where
+                users can buy or order glasses. This is my best project i have
+                done so far.
               </p>
             </div>
             <div className="card-footer d-flex justify-content-center">
@@ -160,15 +162,22 @@ const Projects = () => {
                       <div className="col-md-6">
                         <h2>Glassy Yard</h2>
                         <div>
-                          Lorem ipsum, dolor sit amet consectetur adipisicing
-                          elit. Libero, sunt repellendus aspernatur totam nihil
-                          blanditiis adipisci voluptatem qui ea cum?
+                          Glassy Yard is a MERN-stack single-page web
+                          application where users can buy or order glasses. I
+                          have built the front side of the website using
+                          react.JS and Used Node.JS for backend.
                           <ul>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>
+                              Users have to register using email to order
+                              products.
+                            </li>
+
+                            <li>Admin and user have different dashboards.</li>
+                            <li>
+                              Admin can manage all products and all orders.
+                            </li>
+                            <li>Admin can add new products.</li>
+                            <li>Admin can make new admin only.</li>
                           </ul>
                         </div>
                         <h4 className="my-2 fw-bold">Technology</h4>
@@ -197,12 +206,15 @@ const Projects = () => {
         </div>
         <div className="col">
           <div className="card h-100">
-            <img src={tour} className="card-img-top" alt="..." />
+            <div className="card-img-hover">
+              <img src={tour} className="card-img-top" alt="..." />
+            </div>
+
             <div className="card-body">
               <h5 className="card-title">Tour Dust</h5>
               <p className="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
+                Tour Dust is a professional dynamic single-page web application
+                where users can book events to go on a tour.
               </p>
             </div>
             <div className="card-footer d-flex justify-content-center">
@@ -299,15 +311,18 @@ const Projects = () => {
                       <div className="col-md-6">
                         <h2>Tour Dust</h2>
                         <div>
-                          Lorem ipsum, dolor sit amet consectetur adipisicing
-                          elit. Libero, sunt repellendus aspernatur totam nihil
-                          blanditiis adipisci voluptatem qui ea cum?
+                          Tour Dust is a professional dynamic single-page web
+                          application where users can book events to go on a
+                          tour. I have built the front side of the website using
+                          react.JS and Used Node.JS for backend.
                           <ul>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>
+                              Users can book an event by logging in using google
+                              sign in.
+                            </li>
+                            <li>Admin can manage and add new events</li>
+                            <li>Admin can mange booked events</li>
+                            <li>User can cancel book after booking</li>
                           </ul>
                         </div>
                         <h4 className="my-2 fw-bold">Technology</h4>
@@ -336,12 +351,14 @@ const Projects = () => {
         </div>
         <div className="col">
           <div className="card h-100">
-            <img src={health} className="card-img-top" alt="..." />
+            <div className="card-img-hover">
+              <img src={health} className="card-img-top" alt="..." />
+            </div>
             <div className="card-body">
               <h5 className="card-title">We care</h5>
               <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even
+                We Care is a single-page web application where users can book
+                appointments for doctors.
               </p>
             </div>
             <div className="card-footer d-flex justify-content-center">
@@ -367,7 +384,7 @@ const Projects = () => {
                   onHide={() => setShow3(false)}
                 >
                   <Modal.Header closeButton>
-                    <Modal.Title>Tour Dust</Modal.Title>
+                    <Modal.Title>We Care</Modal.Title>
                   </Modal.Header>
 
                   <Modal.Body className="container">
@@ -438,15 +455,15 @@ const Projects = () => {
                       <div className="col-md-6">
                         <h2>We Care</h2>
                         <div>
-                          Lorem ipsum, dolor sit amet consectetur adipisicing
-                          elit. Libero, sunt repellendus aspernatur totam nihil
-                          blanditiis adipisci voluptatem qui ea cum?
+                          We Care is a single-page web application where users
+                          can book appointments for doctors.
                           <ul>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>User have to create account first.</li>
+                            <li>User can simply login with google.</li>
+                            <li>
+                              Users can check doctor's details and confirm the
+                              appointment.
+                            </li>
                           </ul>
                         </div>
                         <h4 className="my-2 fw-bold">Technology</h4>

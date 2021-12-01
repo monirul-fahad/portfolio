@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import "./Header.css";
 
 const Header = () => {
   return (
@@ -11,7 +12,7 @@ const Header = () => {
       <Container>
         <Navbar.Brand
           style={{ color: "#fff" }}
-          className="web-name header-logo"
+          className="name from-left"
           to="/"
           href="#home"
         >
