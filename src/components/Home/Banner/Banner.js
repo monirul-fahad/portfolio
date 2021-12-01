@@ -47,6 +47,7 @@ const Banner = () => {
                 "MERN Stack Web Developer",
                 "Front-End Web Developer",
                 "Full-Stack Web Developer",
+                "MERN Stack Web Developer",
               ]}
               loop={true}
               multiTextDelay={1000}
