@@ -73,12 +73,12 @@ const Projects = () => {
                 {values.map((v, idx) => (
                   <Button
                     key={idx}
-                    className="me-2 fw-bold "
-                    style={{
-                      background: "#ff4a57",
-                      border: "none",
-                      color: "#1f2235",
-                    }}
+                    className="me-2 fw-bold link-btn"
+                    // style={{
+                    //   background: "#ff4a57",
+                    //   border: "none",
+                    //   color: "#1f2235",
+                    // }}
                     onClick={() => handleShow2(v)}
                   >
                     More About Glassy Yard
@@ -130,14 +130,7 @@ const Projects = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <button
-                              style={{
-                                background: "#ff4a57",
-                                border: "none",
-                                color: "#1f2235",
-                              }}
-                              className="btn btn-success px-3 py-2"
-                            >
+                            <button className="btn link-btn fw-bold px-3 py-2">
                               <MdOutlinePreview /> Live
                             </button>
                           </a>
@@ -146,14 +139,7 @@ const Projects = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <button
-                              style={{
-                                background: "#ff4a57",
-                                border: "none",
-                                color: "#1f2235",
-                              }}
-                              className="btn btn-info px-3 py-2"
-                            >
+                            <button className="btn link-btn fw-bold px-3 py-2">
                               <FaGithub /> Github
                             </button>
                           </a>
@@ -222,12 +208,12 @@ const Projects = () => {
                 {values.map((v, idx) => (
                   <Button
                     key={idx}
-                    className="me-2 fw-bold"
-                    style={{
-                      background: "#ff4a57",
-                      border: "none",
-                      color: "#1f2235",
-                    }}
+                    className="me-2 fw-bold link-btn"
+                    // style={{
+                    //   background: "#ff4a57",
+                    //   border: "none",
+                    //   color: "#1f2235",
+                    // }}
                     onClick={() => handleShow(v)}
                   >
                     More About Tour Dust
@@ -279,14 +265,7 @@ const Projects = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <button
-                              style={{
-                                background: "#ff4a57",
-                                border: "none",
-                                color: "#1f2235",
-                              }}
-                              className="btn btn-success px-3 py-2"
-                            >
+                            <button className="btn link-btn fw-bold px-3 py-2">
                               <MdOutlinePreview /> Live
                             </button>
                           </a>
@@ -295,14 +274,7 @@ const Projects = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <button
-                              style={{
-                                background: "#ff4a57",
-                                border: "none",
-                                color: "#1f2235",
-                              }}
-                              className="btn btn-info px-3 py-2"
-                            >
+                            <button className="btn link-btn fw-bold px-3 py-2">
                               <FaGithub /> Github
                             </button>
                           </a>
@@ -366,12 +338,12 @@ const Projects = () => {
                 {values.map((v, idx) => (
                   <Button
                     key={idx}
-                    className="me-2 fw-bold"
-                    style={{
-                      background: "#ff4a57",
-                      border: "none",
-                      color: "#1f2235",
-                    }}
+                    className="me-2 fw-bold link-btn"
+                    // style={{
+                    //   background: "#ff4a57",
+                    //   border: "none",
+                    //   color: "#1f2235",
+                    // }}
                     onClick={() => handleShow3(v)}
                   >
                     More About We Care
@@ -429,7 +401,7 @@ const Projects = () => {
                                 border: "none",
                                 color: "#1f2235",
                               }}
-                              className="btn btn-success px-3 py-2"
+                              className="btn link-btn fw-bold px-3 py-2"
                             >
                               <MdOutlinePreview /> Live
                             </button>
@@ -445,7 +417,7 @@ const Projects = () => {
                                 border: "none",
                                 color: "#1f2235",
                               }}
-                              className="btn btn-info px-3 py-2"
+                              className="btn link-btn fw-bold px-3 py-2"
                             >
                               <FaGithub /> Github
                             </button>

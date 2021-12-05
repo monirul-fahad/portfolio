@@ -29,6 +29,17 @@ h4 {
   margin: 0 10px 0 10px;
 }
 
+.link-btn:hover {
+  background-color: #2c314d;
+  color: #ff4a57;
+}
+
+.link-btn {
+  background-color: #ff4a57;
+  border: none;
+  color: #1f2235;
+}
+
 .card-body h5,
 .card-body p {
   color: #1f2235;
