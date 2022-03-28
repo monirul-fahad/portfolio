@@ -59,3 +59,24 @@ h4 {
   transition: 0.5s all ease-in-out;
   transform: scale(1.2);
 }
+
+
+.modal-content {
+  width: 1250px !important;
+  
+}
+
+.modal-fullscreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-fullscreen .modal-content {
+  height: auto !important;
+  
+}
+.modal-fullscreen .modal-body{
+  overflow: hidden !important;
+}
+

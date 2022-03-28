@@ -19,3 +19,11 @@
   border-radius: 20px;
   border: 2px solid #ff4a57;
 }
+
+.about-btn{
+  background: #ffffff;
+  border: none;
+}
+.about-btn:hover{
+  background: #ff4a57;
+}

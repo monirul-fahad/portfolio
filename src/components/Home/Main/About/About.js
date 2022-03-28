@@ -39,6 +39,8 @@ const About = () => {
             <span>JavaScript</span>
             <span>React.js</span>
             <span>Node.js</span>
+            <span>Next.js</span>
+            <span>Redux</span>
             <span>Express.js</span>
             <span>MOngoDB</span>
             <span>React Router</span>
@@ -50,16 +52,14 @@ const About = () => {
             <span>Material UI</span>
             <span>React Icon</span>
             <span>Netlify</span>
+            <span>Varcel</span>
             <span>Firebase</span>
             <span>Heroku</span>
           </div>
           <div className="pt-4">
             <button
-              className="px-4 me-3 py-2 rounded fw-bold"
-              style={{
-                background: "#fff",
-                border: "none",
-              }}
+              className="px-4 me-3 py-2 rounded fw-bold about-btn"
+          
             >
               <a
                 style={{ color: "#1f2235", textDecoration: "none" }}
@@ -69,14 +69,15 @@ const About = () => {
               </a>
             </button>
             <button
-              className="px-4 py-2 rounded fw-bold"
-              style={{
-                background: "#fff",
-                border: "none",
-                color: "#1f2235",
-              }}
+              className="px-4 py-2 rounded fw-bold about-btn"
+             
             >
-              Hire Me
+                <a target="_blank" rel="noreferrer"
+                style={{ color: "#1f2235", textDecoration: "none" }}
+                href="https://www.linkedin.com/in/monirul-fahad/"
+              >
+                Hire Me
+              </a>
             </button>
           </div>
         </div>
