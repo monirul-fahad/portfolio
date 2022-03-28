@@ -217,12 +217,15 @@ const Projects = () => {
                         <h4 className="my-2 fw-bold">Technology</h4>
                         <div className="px-3 pb-2 technology">
                           <span>Next.js</span>
-                          <span>Tailwind</span>
-                          <span>Material UI</span>
-                          <span>Redux</span>
                           <span>Node.js</span>
                           <span>Express.js</span>
-                          <span>MOngoDB</span>
+                          <span>Material UI</span>
+                          <span>Tailwind</span>
+                          <span>Redux</span>
+                          <span>Chart.js</span>
+                          <span>Draft.js</span>
+                          <span>MongoDB</span>
+                          <span>React</span>
                           <span>Email.js</span>
                           <span>Firebase</span>
                         </div>
