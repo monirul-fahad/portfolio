@@ -61,34 +61,34 @@ const Banner = () => {
             <ul className="social-link">
               <li>
                 <a
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   href="https://www.linkedin.com/in/monirul-fahad/"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
               <li>
-                <a target="_blank" href="https://github.com/monirul-fahad">
+                <a target="_blank" rel="noreferrer" href="https://github.com/monirul-fahad">
                   <FaGithub />
                 </a>
               </li>
               <li>
                 <a
-                  target="_blank"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
+                  
                   href="https://www.facebook.com/monirul.fahd/"
                 >
                   <FaFacebookF />
                 </a>
               </li>
               <li>
-                <a target="_blank" href="https://twitter.com/monirulFahd">
+                <a target="_blank" rel="noreferrer" href="https://twitter.com/monirulFahd">
                   <FaTwitter />
                 </a>
               </li>
               <li>
                 <a
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   href="https://www.instagram.com/monirul._.fahad/"
                 >
                   <FaInstagram />

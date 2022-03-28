@@ -2,13 +2,23 @@ import React, { useEffect, useState } from "react";
 import { Container, Modal, Button, Carousel } from "react-bootstrap";
 import sunglass from "../../../../images/sunglass1.jpg";
 import tour from "../../../../images/tourcard.jpg";
-import health from "../../../../images/heathcare1.jpg";
+
+import docy1 from "../../../../images/docy-1.png";
+// import docy2 from "../../../../images/docy-2.png";
+import docy3 from "../../../../images/docy-3.png";
+import docy4 from "../../../../images/docy-4.png";
+import docy5 from "../../../../images/docy-5.png";
+import docy6 from "../../../../images/docy-6.png";
+import docy7 from "../../../../images/docy-7.png";
+import docy8 from "../../../../images/docy-8.png";
+import docy9 from "../../../../images/docy-9.png";
+// import health from "../../../../images/heathcare1.jpg";
 import sunglass1 from "../../../../images/sunglass1.jpg";
 import sunglass2 from "../../../../images/sunglass2.jpg";
 import sunglass3 from "../../../../images/sunglass3.jpg";
-import health1 from "../../../../images/heathcare1.jpg";
-import health2 from "../../../../images/heathcare2.jpg";
-import health3 from "../../../../images/heathcare3.jpg";
+// import health1 from "../../../../images/heathcare1.jpg";
+// import health2 from "../../../../images/heathcare2.jpg";
+// import health3 from "../../../../images/heathcare3.jpg";
 import tour1 from "../../../../images/tourdust1.jpg";
 import tour2 from "../../../../images/tourdust2.jpg";
 import tour3 from "../../../../images/tourdust3.jpg";
@@ -55,13 +65,182 @@ const Projects = () => {
         data-aos="fade-up"
         data-aos-duration="3000"
       >
+            <div className="col">
+          <div className="card h-100">
+            <div className="card-img-hover">
+              <img src={docy1} className="card-img-top" alt="..." />
+            </div>
+            <div className="card-body">
+              <h5 className="card-title">DOCY <span className="fs-6">(Blog & Documentation App)</span> </h5>
+              <p className="card-text">
+                Docy is a website to post Blog & Documentation. The goal was about the project is to make user friendly platform for bloggers and readers.
+              </p>
+            </div>
+            <div className="card-footer d-flex justify-content-center">
+              <>
+                {values.map((v, idx) => (
+                  <Button
+                    key={idx}
+                    className="me-2 fw-bold link-btn"
+                    // style={{
+                    //   background: "#ff4a57",
+                    //   border: "none",
+                    //   color: "#1f2235",
+                    // }}
+                    onClick={() => handleShow3(v)}
+                  >
+                    More About Docy
+                    {typeof v === "string" && `below ${v.split("-")[0]}`}
+                  </Button>
+                ))}
+                <Modal
+                  show={show3}
+                  fullscreen={fullscreen}
+                  onHide={() => setShow3(false)}
+                >
+                  <Modal.Header closeButton>
+                    <Modal.Title>Docy</Modal.Title>
+                  </Modal.Header>
+
+                  <Modal.Body className="container">
+                    <div
+                      className="row single-project d-flex align-items-center"
+                      data-aos="flip-left"
+                      data-aos-duration="2000"
+                    >
+                      <div className="col-md-6">
+                        <Carousel>
+                          <Carousel.Item>
+                            <img
+                              className="d-block w-100"
+                              src={docy1}
+                              alt="First slide"
+                            />
+                          </Carousel.Item>
+                          <Carousel.Item>
+                            <img
+                              className="d-block w-100"
+                              src={docy9}
+                              alt="second slide"
+                            />
+                          </Carousel.Item>
+                          <Carousel.Item>
+                            <img
+                              className="d-block w-100"
+                              src={docy3}
+                              alt="Third slide"
+                            />
+                          </Carousel.Item>
+                          <Carousel.Item>
+                            <img
+                              className="d-block w-100"
+                              src={docy4}
+                              alt="Third slide"
+                            />
+                          </Carousel.Item>
+                          <Carousel.Item>
+                            <img
+                              className="d-block w-100"
+                              src={docy5}
+                              alt="Third slide"
+                            />
+                          </Carousel.Item>
+                          <Carousel.Item>
+                            <img
+                              className="d-block w-100"
+                              src={docy6}
+                              alt="Third slide"
+                            />
+                          </Carousel.Item>
+                          <Carousel.Item>
+                            <img
+                              className="d-block w-100"
+                              src={docy7}
+                              alt="Third slide"
+                            />
+                          </Carousel.Item>
+                          <Carousel.Item>
+                            <img
+                              className="d-block w-100"
+                              src={docy8}
+                              alt="Third slide"
+                            />
+                          </Carousel.Item>
+                        </Carousel>
+                        <div className="project-link pt-5  text-center">
+                          <a
+                            href="https://health-care-app-m.firebaseapp.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <button
+                              style={{
+                                background: "#ff4a57",
+                                border: "none",
+                                color: "#1f2235",
+                              }}
+                              className="btn link-btn fw-bold px-3 py-2"
+                            >
+                              <MdOutlinePreview /> Live
+                            </button>
+                          </a>
+                          <a
+                            href="https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-monirul-fahad"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <button
+                              style={{
+                                background: "#ff4a57",
+                                border: "none",
+                                color: "#1f2235",
+                              }}
+                              className="btn link-btn fw-bold px-3 py-2"
+                            >
+                              <FaGithub /> Github
+                            </button>
+                          </a>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <h2> DOCY <span className="fs-6">(Blog & Documentation App)</span></h2>
+                        <div>
+                        The goal was about the project is to make user friendly platform for bloggers and readers.  this website will be very beneficial for people who like writing and reading about topics on the internet. It is an user friendly and easy to navigate platform and will help to gather and share knowledge with each other.
+                          <ul>
+                            <li>User can post blogs including video and can comment on blogs also. Cam Follow other users.</li>
+                            <li>User can update his profile, can update every details. Can see follower, following list and all of his blogs</li>
+                            <li>
+                             
+                            </li>
+                          </ul>
+                        </div>
+                        <h4 className="my-2 fw-bold">Technology</h4>
+                        <div className="px-3 pb-2 technology">
+                          <span>Next.js</span>
+                          <span>Tailwind</span>
+                          <span>Material UI</span>
+                          <span>Redux</span>
+                          <span>Node.js</span>
+                          <span>Express.js</span>
+                          <span>MOngoDB</span>
+                          <span>Email.js</span>
+                          <span>Firebase</span>
+                        </div>
+                      </div>
+                    </div>
+                  </Modal.Body>
+                </Modal>
+              </>
+            </div>
+          </div>
+        </div>
         <div className="col">
           <div className="card h-100">
             <div className="card-img-hover">
               <img src={sunglass} className="card-img-top" alt="..." />
             </div>
             <div className="card-body">
-              <h5 className="card-title">Glassy Yard</h5>
+              <h5 className="card-title">Glassy Yard  <span className="fs-6">(E-Commerce Website)</span></h5>
               <p className="card-text">
                 Glassy Yard is a MERN-stack single-page web application where
                 users can buy or order glasses. This is my best project i have
@@ -146,7 +325,7 @@ const Projects = () => {
                         </div>
                       </div>
                       <div className="col-md-6">
-                        <h2>Glassy Yard</h2>
+                        <h2>Glassy Yard  <span className="fs-6">(E-Commerce Website)</span></h2>
                         <div>
                           Glassy Yard is a MERN-stack single-page web
                           application where users can buy or order glasses. I
@@ -197,7 +376,7 @@ const Projects = () => {
             </div>
 
             <div className="card-body">
-              <h5 className="card-title">Tour Dust</h5>
+              <h5 className="card-title">Tour Dust  <span className="fs-6">(Booking Website)</span></h5>
               <p className="card-text">
                 Tour Dust is a professional dynamic single-page web application
                 where users can book events to go on a tour.
@@ -281,7 +460,7 @@ const Projects = () => {
                         </div>
                       </div>
                       <div className="col-md-6">
-                        <h2>Tour Dust</h2>
+                        <h2>Tour Dust   <span className="fs-6">(Booking Website)</span></h2>
                         <div>
                           Tour Dust is a professional dynamic single-page web
                           application where users can book events to go on a
@@ -321,143 +500,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="col">
-          <div className="card h-100">
-            <div className="card-img-hover">
-              <img src={health} className="card-img-top" alt="..." />
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">We care</h5>
-              <p className="card-text">
-                We Care is a single-page web application where users can book
-                appointments for doctors.
-              </p>
-            </div>
-            <div className="card-footer d-flex justify-content-center">
-              <>
-                {values.map((v, idx) => (
-                  <Button
-                    key={idx}
-                    className="me-2 fw-bold link-btn"
-                    // style={{
-                    //   background: "#ff4a57",
-                    //   border: "none",
-                    //   color: "#1f2235",
-                    // }}
-                    onClick={() => handleShow3(v)}
-                  >
-                    More About We Care
-                    {typeof v === "string" && `below ${v.split("-")[0]}`}
-                  </Button>
-                ))}
-                <Modal
-                  show={show3}
-                  fullscreen={fullscreen}
-                  onHide={() => setShow3(false)}
-                >
-                  <Modal.Header closeButton>
-                    <Modal.Title>We Care</Modal.Title>
-                  </Modal.Header>
-
-                  <Modal.Body className="container">
-                    <div
-                      className="row single-project d-flex align-items-center"
-                      data-aos="flip-left"
-                      data-aos-duration="2000"
-                    >
-                      <div className="col-md-6">
-                        <Carousel>
-                          <Carousel.Item>
-                            <img
-                              className="d-block w-100"
-                              src={health1}
-                              alt="First slide"
-                            />
-                          </Carousel.Item>
-                          <Carousel.Item>
-                            <img
-                              className="d-block w-100"
-                              src={health2}
-                              alt="second slide"
-                            />
-                          </Carousel.Item>
-                          <Carousel.Item>
-                            <img
-                              className="d-block w-100"
-                              src={health3}
-                              alt="Third slide"
-                            />
-                          </Carousel.Item>
-                        </Carousel>
-                        <div className="project-link pt-5  text-center">
-                          <a
-                            href="https://health-care-app-m.firebaseapp.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <button
-                              style={{
-                                background: "#ff4a57",
-                                border: "none",
-                                color: "#1f2235",
-                              }}
-                              className="btn link-btn fw-bold px-3 py-2"
-                            >
-                              <MdOutlinePreview /> Live
-                            </button>
-                          </a>
-                          <a
-                            href="https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-monirul-fahad"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <button
-                              style={{
-                                background: "#ff4a57",
-                                border: "none",
-                                color: "#1f2235",
-                              }}
-                              className="btn link-btn fw-bold px-3 py-2"
-                            >
-                              <FaGithub /> Github
-                            </button>
-                          </a>
-                        </div>
-                      </div>
-                      <div className="col-md-6">
-                        <h2>We Care</h2>
-                        <div>
-                          We Care is a single-page web application where users
-                          can book appointments for doctors.
-                          <ul>
-                            <li>User have to create account first.</li>
-                            <li>User can simply login with google.</li>
-                            <li>
-                              Users can check doctor's details and confirm the
-                              appointment.
-                            </li>
-                          </ul>
-                        </div>
-                        <h4 className="my-2 fw-bold">Technology</h4>
-                        <div className="px-3 pb-2 technology">
-                          <span>HTML5</span>
-                          <span>CSS3</span>
-                          <span>Bootstrap</span>
-                          <span>React Bootstrap</span>
-                          <span>JavaScript</span>
-                          <span>React.js</span>
-                          <span>React Router</span>
-                          <span>React Icon</span>
-                          <span>Firebase</span>
-                        </div>
-                      </div>
-                    </div>
-                  </Modal.Body>
-                </Modal>
-              </>
-            </div>
-          </div>
-        </div>
+    
       </div>
     </Container>
   );

@@ -1,4 +1,4 @@
-import ParticlesBg from "particles-bg";
+
 import React from "react";
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
