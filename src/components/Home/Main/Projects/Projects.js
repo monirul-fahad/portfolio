@@ -205,7 +205,7 @@ const Projects = () => {
                       <div className="col-md-6">
                         <h2> DOCY <span className="fs-6">(Blog & Documentation App)</span></h2>
                         <div>
-                        The goal was about the project is to make user friendly platform for bloggers and readers.  this website will be very beneficial for people who like writing and reading about topics on the internet. It is an user friendly and easy to navigate platform and will help to gather and share knowledge with each other.
+                        The goal was about the project is to make user friendly platform for bloggers and readers.  this website will be very beneficial for people who like writing and reading about topics on the internet. It is an user friendly and easy to navigate platform and will help to gather and share knowledge with each other. It also has <span className="fw-bold">Dark</span> mood and <span className="fw-bold">Light</span> mood UI
                           <ul>
                             <li>User can post blogs including video and can comment on blogs also. Cam Follow other users. Even can report blogs.</li>
                             <li>User can update his profile, can update every details. Can see follower, following list and all of his blogs</li>
